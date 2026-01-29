@@ -20,10 +20,10 @@ Model Format: GGUF quantized models (Q4_K_M, Q4_K, Q6_K)
 
 📦 Installation
 
-> git clone https://github.com/ggerganov/llama.cpp.git
-> cd llama.cpp
-> git fetch --tags
-> git checkout b6123
+ git clone https://github.com/ggerganov/llama.cpp.git
+ cd llama.cpp
+ git fetch --tags
+ git checkout b6123
 
 --->Replace the 2 modified files of this repo into /llama.cpp/ggml/src/ggml-metal/ et voilà !
 
