@@ -1,0 +1,1230 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2867
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;\f1\fnil\fcharset0 .SFNS-Regular_wdth_opsz110000_GRAD_wght2580000;\f2\fnil\fcharset0 HelveticaNeue-Bold;
+\f3\fnil\fcharset0 .AppleSystemUIFontMonospaced-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red82\green91\blue100;\red35\green38\blue42;
+\red9\green66\blue127;\red166\green65\blue5;\red68\green104\blue13;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c39608\c43137\c46667;\cssrgb\c18431\c20000\c21569;
+\cssrgb\c392\c33725\c57255;\cssrgb\c71765\c33333\c392;\cssrgb\c32941\c47451\c5098;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid101\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid102\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid301\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid302\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid4}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww27000\viewh23880\viewkind0
+\deftab720
+\pard\pardeftab720\sa160\partightenfactor0
+
+\f0\fs32 \cf0 \expnd0\expndtw0\kerning0
+Hello! How can I help you today? \uc0\u55357 \u56842 \
+\pard\pardeftab720\partightenfactor0
+
+\f1\b\fs28 \cf0 Speed: 39.7 t/s\
+\pard\pardeftab720\qc\partightenfactor0
+
+\f0\b0\fs32 \cf0 \
+\
+\pard\pardeftab720\sa160\partightenfactor0
+\cf0 R\'e9diges moi un Tutorial avec des exemples pour apprendre la programmation des kernels Metal V3 pour W6800X sur MacOS.\
+\pard\pardeftab720\qc\partightenfactor0
+\cf0 \
+\
+\pard\pardeftab720\sa428\partightenfactor0
+
+\f2\b\fs64 \cf0 Tutorial de Programmation de Kernels Metal V3 pour W6800X sur macOS\
+\pard\pardeftab720\sa398\partightenfactor0
+
+\fs48 \cf0 Introduction\
+\pard\pardeftab720\sa160\partightenfactor0
+
+\f0\b0\fs32 \cf0 Metal V3 est la version 3 de la technologie de programmation graphique de Apple, sp\'e9cifiquement con\'e7ue pour les processeurs Apple Silicon (M1, M2, M3, etc.). Ce tutorial vous permettra d'apprendre \'e0 cr\'e9er et utiliser des kernels Metal pour les cartes graphiques de la famille W6800X sur macOS.\
+\pard\pardeftab720\sa398\partightenfactor0
+
+\f2\b\fs48 \cf0 1. Configuration de l'environnement\
+\pard\pardeftab720\sa374\partightenfactor0
+
+\fs37\fsmilli18720 \cf0 Pr\'e9requis\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0
+\f0\b0\fs32 \cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+macOS 12.0 ou sup\'e9rieur\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Xcode 13.0 ou sup\'e9rieur\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Carte graphique compatible W6800X (Apple Silicon)\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Connaissance de base de C++ et de l'architecture GPU\
+\pard\pardeftab720\sa374\partightenfactor0
+
+\f2\b\fs37\fsmilli18720 \cf0 Cr\'e9ation d'un projet Metal\
+\pard\pardeftab720\qc\partightenfactor0
+
+\f0\b0\fs28 \cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs32 \cf3 // Dans votre projet Xcode\cf4 \
+\cf3 // 1. Cr\'e9ez un nouveau projet macOS\cf4 \
+\cf3 // 2. Ajoutez un fichier .metal (Metal Shading Language)\cf4 \
+\cf3 // 3. Configurez le build settings pour activer Metal\cf4 \
+\pard\pardeftab720\sa398\partightenfactor0
+
+\f2\b\fs48 \cf0 2. Structure de base d'un kernel Metal\
+\pard\pardeftab720\sa374\partightenfactor0
+
+\fs37\fsmilli18720 \cf0 Fichier .metal (ex: BasicKernel.metal)\
+\pard\pardeftab720\qc\partightenfactor0
+
+\f0\b0\fs28 \cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs32 \cf4 #include <metal_stdlib>\
+using namespace metal;\
+\
+// Kernel de base avec un seul argument\
+kernel void basicKernel(device float* output [[ buffer(0) ]],\
+                       device float* input [[ buffer(1) ]],\
+                       uint2 gid [[ thread_position_in_grid ]]) \{\
+    \
+    // Calcul de l'indice\
+    int index = gid.x + gid.y * 1024;\
+    \
+    // Op\'e9ration simple\
+    output[index] = input[index] * 2.0f;\
+\}\
+\pard\pardeftab720\sa398\partightenfactor0
+
+\f2\b\fs48 \cf0 3. Exemple 1 : Kernel de multiplication de matrices\
+\pard\pardeftab720\sa374\partightenfactor0
+
+\fs37\fsmilli18720 \cf0 Kernel Metal pour matrices\
+\pard\pardeftab720\qc\partightenfactor0
+
+\f0\b0\fs28 \cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs32 \cf4 #include <metal_stdlib>\
+using namespace metal;\
+\
+kernel void matrixMultiplyKernel(\
+    device float* matrixA [[ buffer(0) ]],\
+    device float* matrixB [[ buffer(1) ]],\
+    device float* result [[ buffer(2) ]],\
+    uint2 threadPos [[ thread_position_in_grid ]],\
+    uint2 gridSize [[ grid_size ]]) \{\
+    \
+    // Dimensions des matrices (ex: 4x4)\
+    const int MATRIX_SIZE = 4;\
+    \
+    int row = threadPos.y;\
+    int col = threadPos.x;\
+    \
+    if (row < MATRIX_SIZE && col < MATRIX_SIZE) \{\
+        float sum = 0.0f;\
+        for (int k = 0; k < MATRIX_SIZE; k++) \{\
+            sum += matrixA[row * MATRIX_SIZE + k] * \
+                   matrixB[k * MATRIX_SIZE + col];\
+        \}\
+        result[row * MATRIX_SIZE + col] = sum;\
+    \}\
+\}\
+\pard\pardeftab720\sa374\partightenfactor0
+
+\f2\b\fs37\fsmilli18720 \cf0 Utilisation en Swift\
+\pard\pardeftab720\qc\partightenfactor0
+
+\f0\b0\fs28 \cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs32 \cf5 import\cf4  Metal\
+\cf5 import\cf4  MetalKit\
+\
+\cf5 class\cf4  \cf6 MatrixProcessor\cf4  \{\
+    \cf5 let\cf4  device: \cf6 MTLDevice\cf4 \
+    \cf5 let\cf4  commandQueue: \cf6 MTLCommandQueue\cf4 \
+    \cf5 let\cf4  library: \cf6 MTLLibrary\cf4 \
+    \
+    \cf5 init\cf4 () \{\
+        \cf5 self\cf4 .device = \cf6 MTLCreateSystemDefaultDevice\cf4 ()!\
+        \cf5 self\cf4 .commandQueue = device.makeCommandQueue()!\
+        \cf5 self\cf4 .library = device.makeDefaultLibrary()!\
+    \}\
+    \
+    \cf5 func\cf4  \cf6 multiplyMatrices\cf4 (\cf5 _\cf4  a: [\cf6 Float\cf4 ], \cf5 _\cf4  b: [\cf6 Float\cf4 ]) -> [\cf6 Float\cf4 ] \{\
+        \cf3 // Cr\'e9ation des buffers\cf4 \
+        \cf5 let\cf4  bufferA = device.makeBuffer(bytes: a, length: a.count * \cf6 MemoryLayout\cf4 <\cf6 Float\cf4 >.size, options: [])\
+        \cf5 let\cf4  bufferB = device.makeBuffer(bytes: b, length: b.count * \cf6 MemoryLayout\cf4 <\cf6 Float\cf4 >.size, options: [])\
+        \cf5 let\cf4  resultBuffer = device.makeBuffer(length: a.count * \cf6 MemoryLayout\cf4 <\cf6 Float\cf4 >.size, options: [])\
+        \
+        \cf3 // Cr\'e9ation de la commande\cf4 \
+        \cf5 let\cf4  commandBuffer = commandQueue.makeCommandBuffer()!\
+        \cf5 let\cf4  computeEncoder = commandBuffer.makeComputeCommandEncoder()!\
+        \
+        \cf3 // Configuration du kernel\cf4 \
+        \cf5 let\cf4  kernel = library.makeFunction(name: \cf7 "matrixMultiplyKernel"\cf4 )!\
+        \cf5 let\cf4  pipeline = \cf5 try!\cf4  device.makeComputePipelineState(function: kernel)\
+        \
+        computeEncoder.setComputePipelineState(pipeline)\
+        computeEncoder.setBuffer(bufferA, offset: \cf6 0\cf4 , index: \cf6 0\cf4 )\
+        computeEncoder.setBuffer(bufferB, offset: \cf6 0\cf4 , index: \cf6 1\cf4 )\
+        computeEncoder.setBuffer(resultBuffer, offset: \cf6 0\cf4 , index: \cf6 2\cf4 )\
+        \
+        \cf3 // Ex\'e9cution du kernel\cf4 \
+        \cf5 let\cf4  gridSize = \cf6 MTLSize\cf4 (width: \cf6 4\cf4 , height: \cf6 4\cf4 , depth: \cf6 1\cf4 )\
+        \cf5 let\cf4  threadGroupSize = \cf6 MTLSize\cf4 (width: \cf6 16\cf4 , height: \cf6 16\cf4 , depth: \cf6 1\cf4 )\
+        computeEncoder.dispatchThreads(gridSize, threadsPerThreadgroup: threadGroupSize)\
+        computeEncoder.endEncoding()\
+        \
+        \cf3 // Ex\'e9cution\cf4 \
+        commandBuffer.commit()\
+        commandBuffer.waitUntilCompleted()\
+        \
+        \cf3 // R\'e9cup\'e9ration des r\'e9sultats\cf4 \
+        \cf5 let\cf4  result = resultBuffer.contents().bindMemory(to: \cf6 Float\cf4 .\cf5 self\cf4 , capacity: a.count)\
+        \cf5 return\cf4  \cf6 Array\cf4 (\cf6 UnsafeBufferPointer\cf4 (start: result, count: a.count))\
+    \}\
+\}\
+\pard\pardeftab720\sa398\partightenfactor0
+
+\f2\b\fs48 \cf0 4. Exemple 2 : Traitement d'images avec filtres\
+\pard\pardeftab720\sa374\partightenfactor0
+
+\fs37\fsmilli18720 \cf0 Kernel de filtre de convolution\
+\pard\pardeftab720\qc\partightenfactor0
+
+\f0\b0\fs28 \cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs32 \cf4 #include <metal_stdlib>\
+using namespace metal;\
+\
+// Kernel de filtre de convolution 3x3\
+kernel void convolutionKernel(\
+    texture2d<float, access::read> inputTexture [[ texture(0) ]],\
+    texture2d<float, access::write> outputTexture [[ texture(1) ]],\
+    constant float kernel[9] [[ buffer(0) ]],\
+    uint2 gid [[ thread_position_in_grid ]]) \{\
+    \
+    const int KERNEL_SIZE = 3;\
+    const int KERNEL_RADIUS = KERNEL_SIZE / 2;\
+    \
+    // Position dans l'image\
+    int2 pos = int2(gid.x, gid.y);\
+    \
+    if (pos.x >= KERNEL_RADIUS && pos.y >= KERNEL_RADIUS) \{\
+        float sum = 0.0f;\
+        for (int ky = 0; ky < KERNEL_SIZE; ky++) \{\
+            for (int kx = 0; kx < KERNEL_SIZE; kx++) \{\
+                int2 texturePos = pos - int2(KERNEL_RADIUS, KERNEL_RADIUS) + int2(kx, ky);\
+                float value = inputTexture.read(texturePos).r;\
+                sum += value * kernel[ky * KERNEL_SIZE + kx];\
+            \}\
+        \}\
+        outputTexture.write(float4(sum, sum, sum, 1.0), gid);\
+    \}\
+\}\
+\pard\pardeftab720\sa374\partightenfactor0
+
+\f2\b\fs37\fsmilli18720 \cf0 Utilisation en Swift\
+\pard\pardeftab720\qc\partightenfactor0
+
+\f0\b0\fs28 \cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs32 \cf5 import\cf4  Metal\
+\cf5 import\cf4  MetalKit\
+\
+\cf5 class\cf4  \cf6 ImageProcessor\cf4  \{\
+    \cf5 let\cf4  device: \cf6 MTLDevice\cf4 \
+    \cf5 let\cf4  commandQueue: \cf6 MTLCommandQueue\cf4 \
+    \cf5 let\cf4  library: \cf6 MTLLibrary\cf4 \
+    \
+    \cf5 init\cf4 () \{\
+        \cf5 self\cf4 .device = \cf6 MTLCreateSystemDefaultDevice\cf4 ()!\
+        \cf5 self\cf4 .commandQueue = device.makeCommandQueue()!\
+        \cf5 self\cf4 .library = device.makeDefaultLibrary()!\
+    \}\
+    \
+    \cf5 func\cf4  \cf6 applyConvolutionFilter\cf4 (inputTexture: \cf6 MTLTexture\cf4 , \
+                               kernel: [\cf6 Float\cf4 ]) -> \cf6 MTLTexture\cf4  \{\
+        \
+        \cf5 let\cf4  textureDescriptor = \cf6 MTLTextureDescriptor\cf4 .texture2DDescriptor(\
+            pixelFormat: .rgba8Unorm,\
+            width: inputTexture.width,\
+            height: inputTexture.height,\
+            mipmapped: \cf6 false\cf4 \
+        )\
+        \
+        \cf5 let\cf4  outputTexture = device.makeTexture(descriptor: textureDescriptor)!\
+        \
+        \cf5 let\cf4  commandBuffer = commandQueue.makeCommandBuffer()!\
+        \cf5 let\cf4  computeEncoder = commandBuffer.makeComputeCommandEncoder()!\
+        \
+        \cf3 // Configuration du kernel\cf4 \
+        \cf5 let\cf4  kernelFunction = library.makeFunction(name: \cf7 "convolutionKernel"\cf4 )!\
+        \cf5 let\cf4  pipelineState = \cf5 try!\cf4  device.makeComputePipelineState(function: kernelFunction)\
+        \
+        computeEncoder.setComputePipelineState(pipelineState)\
+        computeEncoder.setTexture(inputTexture, index: \cf6 0\cf4 )\
+        computeEncoder.setTexture(outputTexture, index: \cf6 1\cf4 )\
+        computeEncoder.setBuffer(device.makeBuffer(bytes: kernel, length: kernel.count * \cf6 MemoryLayout\cf4 <\cf6 Float\cf4 >.size, options: []), index: \cf6 0\cf4 )\
+        \
+        \cf3 // Ex\'e9cution\cf4 \
+        \cf5 let\cf4  gridSize = \cf6 MTLSize\cf4 (width: inputTexture.width, height: inputTexture.height, depth: \cf6 1\cf4 )\
+        \cf5 let\cf4  threadGroupSize = \cf6 MTLSize\cf4 (width: \cf6 16\cf4 , height: \cf6 16\cf4 , depth: \cf6 1\cf4 )\
+        \
+        computeEncoder.dispatchThreads(gridSize, threadsPerThreadgroup: threadGroupSize)\
+        computeEncoder.endEncoding()\
+        \
+        commandBuffer.commit()\
+        commandBuffer.waitUntilCompleted()\
+        \
+        \cf5 return\cf4  outputTexture\
+    \}\
+\}\
+\pard\pardeftab720\sa398\partightenfactor0
+
+\f2\b\fs48 \cf0 5. Exemple 3 : Calcul vectoriel avanc\'e9\
+\pard\pardeftab720\sa374\partightenfactor0
+
+\fs37\fsmilli18720 \cf0 Kernel de calcul vectoriel\
+\pard\pardeftab720\qc\partightenfactor0
+
+\f0\b0\fs28 \cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs32 \cf4 #include <metal_stdlib>\
+using namespace metal;\
+\
+// Kernel pour calculer le produit vectoriel de deux vecteurs\
+kernel void vectorCrossProduct(\
+    device float3* vectorA [[ buffer(0) ]],\
+    device float3* vectorB [[ buffer(1) ]],\
+    device float3* result [[ buffer(2) ]],\
+    uint2 gid [[ thread_position_in_grid ]]) \{\
+    \
+    int index = gid.x + gid.y * 1024;\
+    \
+    // Produit vectoriel : A \'d7 B = (A.y*B.z - A.z*B.y, A.z*B.x - A.x*B.z, A.x*B.y - A.y*B.x)\
+    float3 cross = \{\
+        vectorA[index].y * vectorB[index].z - vectorA[index].z * vectorB[index].y,\
+        vectorA[index].z * vectorB[index].x - vectorA[index].x * vectorB[index].z,\
+        vectorA[index].x * vectorB[index].y - vectorA[index].y * vectorB[index].x\
+    \};\
+    \
+    result[index] = cross;\
+\}\
+\
+// Kernel pour calculer la norme des vecteurs\
+kernel void vectorMagnitude(\
+    device float3* vectors [[ buffer(0) ]],\
+    device float* magnitudes [[ buffer(1) ]],\
+    uint2 gid [[ thread_position_in_grid ]]) \{\
+    \
+    int index = gid.x + gid.y * 1024;\
+    \
+    // Calcul de la norme : sqrt(x\'b2 + y\'b2 + z\'b2)\
+    float3 vector = vectors[index];\
+    float magnitude = sqrt(vector.x * vector.x + \
+                          vector.y * vector.y + \
+                          vector.z * vector.z);\
+    \
+    magnitudes[index] = magnitude;\
+\}\
+\pard\pardeftab720\sa374\partightenfactor0
+
+\f2\b\fs37\fsmilli18720 \cf0 Utilisation en Swift\
+\pard\pardeftab720\qc\partightenfactor0
+
+\f0\b0\fs28 \cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs32 \cf5 import\cf4  Metal\
+\
+\cf5 class\cf4  \cf6 VectorProcessor\cf4  \{\
+    \cf5 let\cf4  device: \cf6 MTLDevice\cf4 \
+    \cf5 let\cf4  commandQueue: \cf6 MTLCommandQueue\cf4 \
+    \cf5 let\cf4  library: \cf6 MTLLibrary\cf4 \
+    \
+    \cf5 init\cf4 () \{\
+        \cf5 self\cf4 .device = \cf6 MTLCreateSystemDefaultDevice\cf4 ()!\
+        \cf5 self\cf4 .commandQueue = device.makeCommandQueue()!\
+        \cf5 self\cf4 .library = device.makeDefaultLibrary()!\
+    \}\
+    \
+    \cf5 func\cf4  \cf6 crossProduct\cf4 (\cf5 _\cf4  a: [\cf6 Float3\cf4 ], \cf5 _\cf4  b: [\cf6 Float3\cf4 ]) -> [\cf6 Float3\cf4 ] \{\
+        \cf5 let\cf4  bufferA = device.makeBuffer(bytes: a, length: a.count * \cf6 MemoryLayout\cf4 <\cf6 Float3\cf4 >.size, options: [])\
+        \cf5 let\cf4  bufferB = device.makeBuffer(bytes: b, length: b.count * \cf6 MemoryLayout\cf4 <\cf6 Float3\cf4 >.size, options: [])\
+        \cf5 let\cf4  resultBuffer = device.makeBuffer(length: a.count * \cf6 MemoryLayout\cf4 <\cf6 Float3\cf4 >.size, options: [])\
+        \
+        \cf5 let\cf4  commandBuffer = commandQueue.makeCommandBuffer()!\
+        \cf5 let\cf4  computeEncoder = commandBuffer.makeComputeCommandEncoder()!\
+        \
+        \cf5 let\cf4  kernel = library.makeFunction(name: \cf7 "vectorCrossProduct"\cf4 )!\
+        \cf5 let\cf4  pipeline = \cf5 try!\cf4  device.makeComputePipelineState(function: kernel)\
+        \
+        computeEncoder.setComputePipelineState(pipeline)\
+        computeEncoder.setBuffer(bufferA, offset: \cf6 0\cf4 , index: \cf6 0\cf4 )\
+        computeEncoder.setBuffer(bufferB, offset: \cf6 0\cf4 , index: \cf6 1\cf4 )\
+        computeEncoder.setBuffer(resultBuffer, offset: \cf6 0\cf4 , index: \cf6 2\cf4 )\
+        \
+        \cf5 let\cf4  gridSize = \cf6 MTLSize\cf4 (width: a.count, height: \cf6 1\cf4 , depth: \cf6 1\cf4 )\
+        \cf5 let\cf4  threadGroupSize = \cf6 MTLSize\cf4 (width: \cf6 256\cf4 , height: \cf6 1\cf4 , depth: \cf6 1\cf4 )\
+        \
+        computeEncoder.dispatchThreads(gridSize, threadsPerThreadgroup: threadGroupSize)\
+        computeEncoder.endEncoding()\
+        \
+        commandBuffer.commit()\
+        commandBuffer.waitUntilCompleted()\
+        \
+        \cf5 let\cf4  result = resultBuffer.contents().bindMemory(to: \cf6 Float3\cf4 .\cf5 self\cf4 , capacity: a.count)\
+        \cf5 return\cf4  \cf6 Array\cf4 (\cf6 UnsafeBufferPointer\cf4 (start: result, count: a.count))\
+    \}\
+\}\
+\pard\pardeftab720\sa398\partightenfactor0
+
+\f2\b\fs48 \cf0 6. Exemple 4 : Utilisation des textures avanc\'e9es\
+\pard\pardeftab720\sa374\partightenfactor0
+
+\fs37\fsmilli18720 \cf0 Kernel de traitement d'image avec interpolation\
+\pard\pardeftab720\qc\partightenfactor0
+
+\f0\b0\fs28 \cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs32 \cf4 #include <metal_stdlib>\
+using namespace metal;\
+\
+// Kernel pour l'interpolation bilin\'e9aire\
+kernel void bilinearInterpolation(\
+    texture2d<float, access::read> inputTexture [[ texture(0) ]],\
+    texture2d<float, access::write> outputTexture [[ texture(1) ]],\
+    constant float2* coordinates [[ buffer(0) ]],\
+    uint2 gid [[ thread_position_in_grid ]]) \{\
+    \
+    int index = gid.x + gid.y * 1024;\
+    float2 coord = coordinates[index];\
+    \
+    // Interpolation bilin\'e9aire\
+    float2 texCoord = coord * float2(inputTexture.width, inputTexture.height);\
+    \
+    // Calcul des coordonn\'e9es de texture\
+    int2 texelCoord00 = int2(floor(texCoord.x), floor(texCoord.y));\
+    int2 texelCoord10 = texelCoord00 + int2(1, 0);\
+    int2 texelCoord01 = texelCoord00 + int2(0, 1);\
+    int2 texelCoord11 = texelCoord00 + int2(1, 1);\
+    \
+    // Calcul des poids d'interpolation\
+    float2 weights = texCoord - float2(texelCoord00.x, texelCoord00.y);\
+    \
+    // Lire les pixels\
+    float4 pixel00 = inputTexture.read(texelCoord00);\
+    float4 pixel10 = inputTexture.read(texelCoord10);\
+    float4 pixel01 = inputTexture.read(texelCoord01);\
+    float4 pixel11 = inputTexture.read(texelCoord11);\
+    \
+    // Interpolation\
+    float4 interpolated = mix(\
+        mix(pixel00, pixel10, weights.x),\
+        mix(pixel01, pixel11, weights.x),\
+        weights.y\
+    );\
+    \
+    outputTexture.write(interpolated, gid);\
+\}\
+\pard\pardeftab720\sa398\partightenfactor0
+
+\f2\b\fs48 \cf0 7. Performance et optimisation\
+\pard\pardeftab720\sa374\partightenfactor0
+
+\fs37\fsmilli18720 \cf0 Optimisation des kernels\
+\pard\pardeftab720\qc\partightenfactor0
+
+\f0\b0\fs28 \cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs32 \cf4 #include <metal_stdlib>\
+using namespace metal;\
+\
+// Kernel optimis\'e9 avec shared memory\
+kernel void optimizedKernel(\
+    device float* input [[ buffer(0) ]],\
+    device float* output [[ buffer(1) ]],\
+    threadgroup float* sharedMemory [[ threadgroup(0) ]],\
+    uint2 gid [[ thread_position_in_grid ]],\
+    uint2 threadPos [[ thread_position_in_threadgroup ]],\
+    uint2 threadGroupSize [[ threadgroup_size ]]) \{\
+    \
+    // Charger les donn\'e9es dans la m\'e9moire partag\'e9e\
+    int index = gid.x + gid.y * 1024;\
+    int threadIndex = threadPos.x + threadPos.y * threadGroupSize.x;\
+    \
+    if (threadIndex < 1024) \{\
+        sharedMemory[threadIndex] = input[index];\
+    \}\
+    \
+    // Synchroniser les threads\
+    threadgroup_barrier(mem_flags::mem_threadgroup);\
+    \
+    // Traitement optimis\'e9\
+    if (threadIndex < 1024) \{\
+        // Exemple de traitement\
+        float result = sharedMemory[threadIndex] * sharedMemory[threadIndex];\
+        output[index] = result;\
+    \}\
+\}\
+\pard\pardeftab720\sa398\partightenfactor0
+
+\f2\b\fs48 \cf0 8. Gestion des erreurs et d\'e9bogage\
+\pard\pardeftab720\sa374\partightenfactor0
+
+\fs37\fsmilli18720 \cf0 Kernel avec gestion d'erreurs\
+\pard\pardeftab720\qc\partightenfactor0
+
+\f0\b0\fs28 \cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs32 \cf4 #include <metal_stdlib>\
+using namespace metal;\
+\
+kernel void safeKernel(\
+    device float* input [[ buffer(0) ]],\
+    device float* output [[ buffer(1) ]],\
+    uint2 gid [[ thread_position_in_grid ]]) \{\
+    \
+    // V\'e9rification des limites\
+    if (gid.x >= 1024 || gid.y >= 1024) \{\
+        return;\
+    \}\
+    \
+    int index = gid.x + gid.y * 1024;\
+    \
+    // V\'e9rification des donn\'e9es\
+    if (isfinite(input[index])) \{\
+        output[index] = input[index] * 2.0f;\
+    \} else \{\
+        output[index] = 0.0f;\
+    \}\
+\}\
+\pard\pardeftab720\sa398\partightenfactor0
+
+\f2\b\fs48 \cf0 9. Exemple complet d'utilisation\
+\pard\pardeftab720\sa374\partightenfactor0
+
+\fs37\fsmilli18720 \cf0 Classe principale pour le traitement\
+\pard\pardeftab720\qc\partightenfactor0
+
+\f0\b0\fs28 \cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs32 \cf5 import\cf4  Metal\
+\cf5 import\cf4  MetalKit\
+\
+\cf5 class\cf4  \cf6 MetalProcessor\cf4  \{\
+    \cf5 private\cf4  \cf5 let\cf4  device: \cf6 MTLDevice\cf4 \
+    \cf5 private\cf4  \cf5 let\cf4  commandQueue: \cf6 MTLCommandQueue\cf4 \
+    \cf5 private\cf4  \cf5 let\cf4  library: \cf6 MTLLibrary\cf4 \
+    \
+    \cf5 init\cf4 () \{\
+        \cf5 self\cf4 .device = \cf6 MTLCreateSystemDefaultDevice\cf4 ()!\
+        \cf5 self\cf4 .commandQueue = device.makeCommandQueue()!\
+        \cf5 self\cf4 .library = device.makeDefaultLibrary()!\
+    \}\
+    \
+    \cf5 func\cf4  \cf6 processVectors\cf4 (\cf5 _\cf4  vectors: [[\cf6 Float3\cf4 ]]) -> [[\cf6 Float3\cf4 ]] \{\
+        \cf5 guard\cf4  \cf5 let\cf4  library = library \cf5 else\cf4  \{ \cf5 return\cf4  [] \}\
+        \
+        \cf5 let\cf4  vectorCount = vectors.count\
+        \cf5 let\cf4  vectorArray = vectors.flatMap \{ [\cf7 $0\cf4 .x, \cf7 $0\cf4 .y, \cf7 $0\cf4 .z] \}\
+        \
+        \cf3 // Cr\'e9ation des buffers\cf4 \
+        \cf5 let\cf4  inputBuffer = device.makeBuffer(bytes: vectorArray, \
+                                          length: vectorArray.count * \cf6 MemoryLayout\cf4 <\cf6 Float\cf4 >.size, \
+                                          options: [])\
+        \cf5 let\cf4  outputBuffer = device.makeBuffer(length: vectorArray.count * \cf6 MemoryLayout\cf4 <\cf6 Float\cf4 >.size, \
+                                           options: [])\
+        \
+        \cf3 // Cr\'e9ation de la commande\cf4 \
+        \cf5 let\cf4  commandBuffer = commandQueue.makeCommandBuffer()!\
+        \cf5 let\cf4  computeEncoder = commandBuffer.makeComputeCommandEncoder()!\
+        \
+        \cf3 // Configuration du pipeline\cf4 \
+        \cf5 let\cf4  kernelFunction = library.makeFunction(name: \cf7 "vectorMagnitude"\cf4 )!\
+        \cf5 let\cf4  pipelineState = \cf5 try!\cf4  device.makeComputePipelineState(function: kernelFunction)\
+        \
+        computeEncoder.setComputePipelineState(pipelineState)\
+        computeEncoder.setBuffer(inputBuffer, offset: \cf6 0\cf4 , index: \cf6 0\cf4 )\
+        computeEncoder.setBuffer(outputBuffer, offset: \cf6 0\cf4 , index: \cf6 1\cf4 )\
+        \
+        \cf3 // Ex\'e9cution\cf4 \
+        \cf5 let\cf4  gridSize = \cf6 MTLSize\cf4 (width: vectorCount, height: \cf6 1\cf4 , depth: \cf6 1\cf4 )\
+        \cf5 let\cf4  threadGroupSize = \cf6 MTLSize\cf4 (width: \cf6 256\cf4 , height: \cf6 1\cf4 , depth: \cf6 1\cf4 )\
+        \
+        computeEncoder.dispatchThreads(gridSize, threadsPerThreadgroup: threadGroupSize)\
+        computeEncoder.endEncoding()\
+        \
+        commandBuffer.commit()\
+        commandBuffer.waitUntilCompleted()\
+        \
+        \cf3 // R\'e9cup\'e9ration des r\'e9sultats\cf4 \
+        \cf5 let\cf4  result = outputBuffer.contents().bindMemory(to: \cf6 Float\cf4 .\cf5 self\cf4 , capacity: vectorArray.count)\
+        \cf5 let\cf4  magnitudes = \cf6 Array\cf4 (\cf6 UnsafeBufferPointer\cf4 (start: result, count: vectorArray.count))\
+        \
+        \cf3 // Convertir en array de Float3\cf4 \
+        \cf5 var\cf4  resultArray: [[\cf6 Float3\cf4 ]] = []\
+        \cf5 for\cf4  i \cf5 in\cf4  \cf6 stride\cf4 (from: \cf6 0\cf4 , to: magnitudes.count, by: \cf6 3\cf4 ) \{\
+            resultArray.append(\cf6 Float3\cf4 (magnitudes[i], magnitudes[i+\cf6 1\cf4 ], magnitudes[i+\cf6 2\cf4 ]))\
+        \}\
+        \
+        \cf5 return\cf4  resultArray\
+    \}\
+\}\
+\pard\pardeftab720\sa398\partightenfactor0
+
+\f2\b\fs48 \cf0 10. Bonnes pratiques\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa160\partightenfactor0
+\ls2\ilvl0
+\fs32 \cf0 \kerning1\expnd0\expndtw0 {\listtext	1	}\expnd0\expndtw0\kerning0
+Optimisation des structures de donn\'e9es :
+\f0\b0 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls2\ilvl1\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+Utilisez des structures align\'e9es\
+\ls2\ilvl1\kerning1\expnd0\expndtw0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+Minimisez les acc\'e8s m\'e9moire\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa160\partightenfactor0
+\ls2\ilvl0
+\f2\b \cf0 \kerning1\expnd0\expndtw0 {\listtext	2	}\expnd0\expndtw0\kerning0
+Gestion des performances :
+\f0\b0 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls2\ilvl1\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+Utilisez des threadgroups de taille optimale\
+\ls2\ilvl1\kerning1\expnd0\expndtw0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+Limitez le nombre de branches conditionnelles\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa160\partightenfactor0
+\ls2\ilvl0
+\f2\b \cf0 \kerning1\expnd0\expndtw0 {\listtext	3	}\expnd0\expndtw0\kerning0
+R\'e9utilisation des pipelines :
+\f0\b0 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls2\ilvl1\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+Cr\'e9ez les pipelines une seule fois\
+\ls2\ilvl1\kerning1\expnd0\expndtw0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+R\'e9utilisez les buffers\
+\pard\pardeftab720\sa398\partightenfactor0
+
+\f2\b\fs48 \cf0 Conclusion\
+\pard\pardeftab720\sa160\partightenfactor0
+
+\f0\b0\fs32 \cf0 Ce tutorial vous a pr\'e9sent\'e9 les bases de la programmation de kernels Metal V3 pour les cartes graphiques Apple Silicon. Les kernels Metal permettent un traitement parall\'e8le tr\'e8s efficace des donn\'e9es, particuli\'e8rement utile pour les applications de calcul haute performance, traitement d'images, et simulations physiques.\
+La cl\'e9 du succ\'e8s avec Metal est de bien comprendre l'architecture parall\'e8le des GPU Apple et de structurer vos calculs pour tirer parti du mod\'e8le de threadgroup et de la m\'e9moire partag\'e9e.\
+\pard\pardeftab720\qc\partightenfactor0
+
+\fs28 \cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs32 \cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f1\b\fs28 \cf0 Speed: 31.2 t/s\
+\pard\pardeftab720\qc\partightenfactor0
+
+\f0\b0\fs32 \cf0 \
+\
+\pard\pardeftab720\sa160\partightenfactor0
+\cf0 Perfect now write the same tutorial in English.\
+\pard\pardeftab720\qc\partightenfactor0
+\cf0 \
+\
+\pard\pardeftab720\sa428\partightenfactor0
+
+\f2\b\fs64 \cf0 Metal V3 Kernel Programming Tutorial for W6800X on macOS\
+\pard\pardeftab720\sa398\partightenfactor0
+
+\fs48 \cf0 Introduction\
+\pard\pardeftab720\sa160\partightenfactor0
+
+\f0\b0\fs32 \cf0 Metal V3 is Apple's third-generation graphics programming technology, specifically designed for Apple Silicon processors (M1, M2, M3, etc.). This tutorial will teach you how to create and use Metal kernels for W6800X graphics cards on macOS.\
+\pard\pardeftab720\sa398\partightenfactor0
+
+\f2\b\fs48 \cf0 1. Environment Setup\
+\pard\pardeftab720\sa374\partightenfactor0
+
+\fs37\fsmilli18720 \cf0 Prerequisites\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls3\ilvl0
+\f0\b0\fs32 \cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+macOS 12.0 or higher\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Xcode 13.0 or higher\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+W6800X compatible graphics card (Apple Silicon)\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Basic knowledge of C++ and GPU architecture\
+\pard\pardeftab720\sa374\partightenfactor0
+
+\f2\b\fs37\fsmilli18720 \cf0 Creating a Metal Project\
+\pard\pardeftab720\qc\partightenfactor0
+
+\f0\b0\fs28 \cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs32 \cf3 // In your Xcode project\cf4 \
+\cf3 // 1. Create a new macOS project\cf4 \
+\cf3 // 2. Add a .metal file (Metal Shading Language)\cf4 \
+\cf3 // 3. Configure build settings to enable Metal\cf4 \
+\pard\pardeftab720\sa398\partightenfactor0
+
+\f2\b\fs48 \cf0 2. Basic Metal Kernel Structure\
+\pard\pardeftab720\sa374\partightenfactor0
+
+\fs37\fsmilli18720 \cf0 Basic Kernel File (.metal - e.g., BasicKernel.metal)\
+\pard\pardeftab720\qc\partightenfactor0
+
+\f0\b0\fs28 \cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs32 \cf4 #include <metal_stdlib>\
+using namespace metal;\
+\
+// Basic kernel with a single argument\
+kernel void basicKernel(device float* output [[ buffer(0) ]],\
+                       device float* input [[ buffer(1) ]],\
+                       uint2 gid [[ thread_position_in_grid ]]) \{\
+    \
+    // Calculate index\
+    int index = gid.x + gid.y * 1024;\
+    \
+    // Simple operation\
+    output[index] = input[index] * 2.0f;\
+\}\
+\pard\pardeftab720\sa398\partightenfactor0
+
+\f2\b\fs48 \cf0 3. Example 1: Matrix Multiplication Kernel\
+\pard\pardeftab720\sa374\partightenfactor0
+
+\fs37\fsmilli18720 \cf0 Metal Kernel for Matrix Operations\
+\pard\pardeftab720\qc\partightenfactor0
+
+\f0\b0\fs28 \cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs32 \cf4 #include <metal_stdlib>\
+using namespace metal;\
+\
+kernel void matrixMultiplyKernel(\
+    device float* matrixA [[ buffer(0) ]],\
+    device float* matrixB [[ buffer(1) ]],\
+    device float* result [[ buffer(2) ]],\
+    uint2 threadPos [[ thread_position_in_grid ]],\
+    uint2 gridSize [[ grid_size ]]) \{\
+    \
+    // Matrix dimensions (e.g., 4x4)\
+    const int MATRIX_SIZE = 4;\
+    \
+    int row = threadPos.y;\
+    int col = threadPos.x;\
+    \
+    if (row < MATRIX_SIZE && col < MATRIX_SIZE) \{\
+        float sum = 0.0f;\
+        for (int k = 0; k < MATRIX_SIZE; k++) \{\
+            sum += matrixA[row * MATRIX_SIZE + k] * \
+                   matrixB[k * MATRIX_SIZE + col];\
+        \}\
+        result[row * MATRIX_SIZE + col] = sum;\
+    \}\
+\}\
+\pard\pardeftab720\sa374\partightenfactor0
+
+\f2\b\fs37\fsmilli18720 \cf0 Usage in Swift\
+\pard\pardeftab720\qc\partightenfactor0
+
+\f0\b0\fs28 \cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs32 \cf5 import\cf4  Metal\
+\cf5 import\cf4  MetalKit\
+\
+\cf5 class\cf4  \cf6 MatrixProcessor\cf4  \{\
+    \cf5 let\cf4  device: \cf6 MTLDevice\cf4 \
+    \cf5 let\cf4  commandQueue: \cf6 MTLCommandQueue\cf4 \
+    \cf5 let\cf4  library: \cf6 MTLLibrary\cf4 \
+    \
+    \cf5 init\cf4 () \{\
+        \cf5 self\cf4 .device = \cf6 MTLCreateSystemDefaultDevice\cf4 ()!\
+        \cf5 self\cf4 .commandQueue = device.makeCommandQueue()!\
+        \cf5 self\cf4 .library = device.makeDefaultLibrary()!\
+    \}\
+    \
+    \cf5 func\cf4  \cf6 multiplyMatrices\cf4 (\cf5 _\cf4  a: [\cf6 Float\cf4 ], \cf5 _\cf4  b: [\cf6 Float\cf4 ]) -> [\cf6 Float\cf4 ] \{\
+        \cf3 // Create buffers\cf4 \
+        \cf5 let\cf4  bufferA = device.makeBuffer(bytes: a, length: a.count * \cf6 MemoryLayout\cf4 <\cf6 Float\cf4 >.size, options: [])\
+        \cf5 let\cf4  bufferB = device.makeBuffer(bytes: b, length: b.count * \cf6 MemoryLayout\cf4 <\cf6 Float\cf4 >.size, options: [])\
+        \cf5 let\cf4  resultBuffer = device.makeBuffer(length: a.count * \cf6 MemoryLayout\cf4 <\cf6 Float\cf4 >.size, options: [])\
+        \
+        \cf3 // Create command\cf4 \
+        \cf5 let\cf4  commandBuffer = commandQueue.makeCommandBuffer()!\
+        \cf5 let\cf4  computeEncoder = commandBuffer.makeComputeCommandEncoder()!\
+        \
+        \cf3 // Configure kernel\cf4 \
+        \cf5 let\cf4  kernel = library.makeFunction(name: \cf7 "matrixMultiplyKernel"\cf4 )!\
+        \cf5 let\cf4  pipeline = \cf5 try!\cf4  device.makeComputePipelineState(function: kernel)\
+        \
+        computeEncoder.setComputePipelineState(pipeline)\
+        computeEncoder.setBuffer(bufferA, offset: \cf6 0\cf4 , index: \cf6 0\cf4 )\
+        computeEncoder.setBuffer(bufferB, offset: \cf6 0\cf4 , index: \cf6 1\cf4 )\
+        computeEncoder.setBuffer(resultBuffer, offset: \cf6 0\cf4 , index: \cf6 2\cf4 )\
+        \
+        \cf3 // Execute kernel\cf4 \
+        \cf5 let\cf4  gridSize = \cf6 MTLSize\cf4 (width: \cf6 4\cf4 , height: \cf6 4\cf4 , depth: \cf6 1\cf4 )\
+        \cf5 let\cf4  threadGroupSize = \cf6 MTLSize\cf4 (width: \cf6 16\cf4 , height: \cf6 16\cf4 , depth: \cf6 1\cf4 )\
+        computeEncoder.dispatchThreads(gridSize, threadsPerThreadgroup: threadGroupSize)\
+        computeEncoder.endEncoding()\
+        \
+        \cf3 // Execute\cf4 \
+        commandBuffer.commit()\
+        commandBuffer.waitUntilCompleted()\
+        \
+        \cf3 // Retrieve results\cf4 \
+        \cf5 let\cf4  result = resultBuffer.contents().bindMemory(to: \cf6 Float\cf4 .\cf5 self\cf4 , capacity: a.count)\
+        \cf5 return\cf4  \cf6 Array\cf4 (\cf6 UnsafeBufferPointer\cf4 (start: result, count: a.count))\
+    \}\
+\}\
+\pard\pardeftab720\sa398\partightenfactor0
+
+\f2\b\fs48 \cf0 4. Example 2: Image Processing with Filters\
+\pard\pardeftab720\sa374\partightenfactor0
+
+\fs37\fsmilli18720 \cf0 Convolution Filter Kernel\
+\pard\pardeftab720\qc\partightenfactor0
+
+\f0\b0\fs28 \cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs32 \cf4 #include <metal_stdlib>\
+using namespace metal;\
+\
+// 3x3 Convolution filter kernel\
+kernel void convolutionKernel(\
+    texture2d<float, access::read> inputTexture [[ texture(0) ]],\
+    texture2d<float, access::write> outputTexture [[ texture(1) ]],\
+    constant float kernel[9] [[ buffer(0) ]],\
+    uint2 gid [[ thread_position_in_grid ]]) \{\
+    \
+    const int KERNEL_SIZE = 3;\
+    const int KERNEL_RADIUS = KERNEL_SIZE / 2;\
+    \
+    // Image position\
+    int2 pos = int2(gid.x, gid.y);\
+    \
+    if (pos.x >= KERNEL_RADIUS && pos.y >= KERNEL_RADIUS) \{\
+        float sum = 0.0f;\
+        for (int ky = 0; ky < KERNEL_SIZE; ky++) \{\
+            for (int kx = 0; kx < KERNEL_SIZE; kx++) \{\
+                int2 texturePos = pos - int2(KERNEL_RADIUS, KERNEL_RADIUS) + int2(kx, ky);\
+                float value = inputTexture.read(texturePos).r;\
+                sum += value * kernel[ky * KERNEL_SIZE + kx];\
+            \}\
+        \}\
+        outputTexture.write(float4(sum, sum, sum, 1.0), gid);\
+    \}\
+\}\
+\pard\pardeftab720\sa374\partightenfactor0
+
+\f2\b\fs37\fsmilli18720 \cf0 Usage in Swift\
+\pard\pardeftab720\qc\partightenfactor0
+
+\f0\b0\fs28 \cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs32 \cf5 import\cf4  Metal\
+\cf5 import\cf4  MetalKit\
+\
+\cf5 class\cf4  \cf6 ImageProcessor\cf4  \{\
+    \cf5 let\cf4  device: \cf6 MTLDevice\cf4 \
+    \cf5 let\cf4  commandQueue: \cf6 MTLCommandQueue\cf4 \
+    \cf5 let\cf4  library: \cf6 MTLLibrary\cf4 \
+    \
+    \cf5 init\cf4 () \{\
+        \cf5 self\cf4 .device = \cf6 MTLCreateSystemDefaultDevice\cf4 ()!\
+        \cf5 self\cf4 .commandQueue = device.makeCommandQueue()!\
+        \cf5 self\cf4 .library = device.makeDefaultLibrary()!\
+    \}\
+    \
+    \cf5 func\cf4  \cf6 applyConvolutionFilter\cf4 (inputTexture: \cf6 MTLTexture\cf4 , \
+                               kernel: [\cf6 Float\cf4 ]) -> \cf6 MTLTexture\cf4  \{\
+        \
+        \cf5 let\cf4  textureDescriptor = \cf6 MTLTextureDescriptor\cf4 .texture2DDescriptor(\
+            pixelFormat: .rgba8Unorm,\
+            width: inputTexture.width,\
+            height: inputTexture.height,\
+            mipmapped: \cf6 false\cf4 \
+        )\
+        \
+        \cf5 let\cf4  outputTexture = device.makeTexture(descriptor: textureDescriptor)!\
+        \
+        \cf5 let\cf4  commandBuffer = commandQueue.makeCommandBuffer()!\
+        \cf5 let\cf4  computeEncoder = commandBuffer.makeComputeCommandEncoder()!\
+        \
+        \cf3 // Configure kernel\cf4 \
+        \cf5 let\cf4  kernelFunction = library.makeFunction(name: \cf7 "convolutionKernel"\cf4 )!\
+        \cf5 let\cf4  pipelineState = \cf5 try!\cf4  device.makeComputePipelineState(function: kernelFunction)\
+        \
+        computeEncoder.setComputePipelineState(pipelineState)\
+        computeEncoder.setTexture(inputTexture, index: \cf6 0\cf4 )\
+        computeEncoder.setTexture(outputTexture, index: \cf6 1\cf4 )\
+        computeEncoder.setBuffer(device.makeBuffer(bytes: kernel, length: kernel.count * \cf6 MemoryLayout\cf4 <\cf6 Float\cf4 >.size, options: []), index: \cf6 0\cf4 )\
+        \
+        \cf3 // Execute\cf4 \
+        \cf5 let\cf4  gridSize = \cf6 MTLSize\cf4 (width: inputTexture.width, height: inputTexture.height, depth: \cf6 1\cf4 )\
+        \cf5 let\cf4  threadGroupSize = \cf6 MTLSize\cf4 (width: \cf6 16\cf4 , height: \cf6 16\cf4 , depth: \cf6 1\cf4 )\
+        \
+        computeEncoder.dispatchThreads(gridSize, threadsPerThreadgroup: threadGroupSize)\
+        computeEncoder.endEncoding()\
+        \
+        commandBuffer.commit()\
+        commandBuffer.waitUntilCompleted()\
+        \
+        \cf5 return\cf4  outputTexture\
+    \}\
+\}\
+\pard\pardeftab720\sa398\partightenfactor0
+
+\f2\b\fs48 \cf0 5. Example 3: Advanced Vector Operations\
+\pard\pardeftab720\sa374\partightenfactor0
+
+\fs37\fsmilli18720 \cf0 Vector Cross Product Kernel\
+\pard\pardeftab720\qc\partightenfactor0
+
+\f0\b0\fs28 \cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs32 \cf4 #include <metal_stdlib>\
+using namespace metal;\
+\
+// Kernel for cross product of two vectors\
+kernel void vectorCrossProduct(\
+    device float3* vectorA [[ buffer(0) ]],\
+    device float3* vectorB [[ buffer(1) ]],\
+    device float3* result [[ buffer(2) ]],\
+    uint2 gid [[ thread_position_in_grid ]]) \{\
+    \
+    int index = gid.x + gid.y * 1024;\
+    \
+    // Cross product: A \'d7 B = (A.y*B.z - A.z*B.y, A.z*B.x - A.x*B.z, A.x*B.y - A.y*B.x)\
+    float3 cross = \{\
+        vectorA[index].y * vectorB[index].z - vectorA[index].z * vectorB[index].y,\
+        vectorA[index].z * vectorB[index].x - vectorA[index].x * vectorB[index].z,\
+        vectorA[index].x * vectorB[index].y - vectorA[index].y * vectorB[index].x\
+    \};\
+    \
+    result[index] = cross;\
+\}\
+\
+// Kernel for vector magnitude calculation\
+kernel void vectorMagnitude(\
+    device float3* vectors [[ buffer(0) ]],\
+    device float* magnitudes [[ buffer(1) ]],\
+    uint2 gid [[ thread_position_in_grid ]]) \{\
+    \
+    int index = gid.x + gid.y * 1024;\
+    \
+    // Magnitude calculation: sqrt(x\'b2 + y\'b2 + z\'b2)\
+    float3 vector = vectors[index];\
+    float magnitude = sqrt(vector.x * vector.x + \
+                          vector.y * vector.y + \
+                          vector.z * vector.z);\
+    \
+    magnitudes[index] = magnitude;\
+\}\
+\pard\pardeftab720\sa374\partightenfactor0
+
+\f2\b\fs37\fsmilli18720 \cf0 Usage in Swift\
+\pard\pardeftab720\qc\partightenfactor0
+
+\f0\b0\fs28 \cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs32 \cf5 import\cf4  Metal\
+\
+\cf5 class\cf4  \cf6 VectorProcessor\cf4  \{\
+    \cf5 let\cf4  device: \cf6 MTLDevice\cf4 \
+    \cf5 let\cf4  commandQueue: \cf6 MTLCommandQueue\cf4 \
+    \cf5 let\cf4  library: \cf6 MTLLibrary\cf4 \
+    \
+    \cf5 init\cf4 () \{\
+        \cf5 self\cf4 .device = \cf6 MTLCreateSystemDefaultDevice\cf4 ()!\
+        \cf5 self\cf4 .commandQueue = device.makeCommandQueue()!\
+        \cf5 self\cf4 .library = device.makeDefaultLibrary()!\
+    \}\
+    \
+    \cf5 func\cf4  \cf6 crossProduct\cf4 (\cf5 _\cf4  a: [\cf6 Float3\cf4 ], \cf5 _\cf4  b: [\cf6 Float3\cf4 ]) -> [\cf6 Float3\cf4 ] \{\
+        \cf5 let\cf4  bufferA = device.makeBuffer(bytes: a, length: a.count * \cf6 MemoryLayout\cf4 <\cf6 Float3\cf4 >.size, options: [])\
+        \cf5 let\cf4  bufferB = device.makeBuffer(bytes: b, length: b.count * \cf6 MemoryLayout\cf4 <\cf6 Float3\cf4 >.size, options: [])\
+        \cf5 let\cf4  resultBuffer = device.makeBuffer(length: a.count * \cf6 MemoryLayout\cf4 <\cf6 Float3\cf4 >.size, options: [])\
+        \
+        \cf5 let\cf4  commandBuffer = commandQueue.makeCommandBuffer()!\
+        \cf5 let\cf4  computeEncoder = commandBuffer.makeComputeCommandEncoder()!\
+        \
+        \cf5 let\cf4  kernel = library.makeFunction(name: \cf7 "vectorCrossProduct"\cf4 )!\
+        \cf5 let\cf4  pipeline = \cf5 try!\cf4  device.makeComputePipelineState(function: kernel)\
+        \
+        computeEncoder.setComputePipelineState(pipeline)\
+        computeEncoder.setBuffer(bufferA, offset: \cf6 0\cf4 , index: \cf6 0\cf4 )\
+        computeEncoder.setBuffer(bufferB, offset: \cf6 0\cf4 , index: \cf6 1\cf4 )\
+        computeEncoder.setBuffer(resultBuffer, offset: \cf6 0\cf4 , index: \cf6 2\cf4 )\
+        \
+        \cf5 let\cf4  gridSize = \cf6 MTLSize\cf4 (width: a.count, height: \cf6 1\cf4 , depth: \cf6 1\cf4 )\
+        \cf5 let\cf4  threadGroupSize = \cf6 MTLSize\cf4 (width: \cf6 256\cf4 , height: \cf6 1\cf4 , depth: \cf6 1\cf4 )\
+        \
+        computeEncoder.dispatchThreads(gridSize, threadsPerThreadgroup: threadGroupSize)\
+        computeEncoder.endEncoding()\
+        \
+        commandBuffer.commit()\
+        commandBuffer.waitUntilCompleted()\
+        \
+        \cf5 let\cf4  result = resultBuffer.contents().bindMemory(to: \cf6 Float3\cf4 .\cf5 self\cf4 , capacity: a.count)\
+        \cf5 return\cf4  \cf6 Array\cf4 (\cf6 UnsafeBufferPointer\cf4 (start: result, count: a.count))\
+    \}\
+\}\
+\pard\pardeftab720\sa398\partightenfactor0
+
+\f2\b\fs48 \cf0 6. Example 4: Advanced Texture Usage\
+\pard\pardeftab720\sa374\partightenfactor0
+
+\fs37\fsmilli18720 \cf0 Bilinear Interpolation Kernel\
+\pard\pardeftab720\qc\partightenfactor0
+
+\f0\b0\fs28 \cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs32 \cf4 #include <metal_stdlib>\
+using namespace metal;\
+\
+// Kernel for bilinear interpolation\
+kernel void bilinearInterpolation(\
+    texture2d<float, access::read> inputTexture [[ texture(0) ]],\
+    texture2d<float, access::write> outputTexture [[ texture(1) ]],\
+    constant float2* coordinates [[ buffer(0) ]],\
+    uint2 gid [[ thread_position_in_grid ]]) \{\
+    \
+    int index = gid.x + gid.y * 1024;\
+    float2 coord = coordinates[index];\
+    \
+    // Bilinear interpolation\
+    float2 texCoord = coord * float2(inputTexture.width, inputTexture.height);\
+    \
+    // Calculate texture coordinates\
+    int2 texelCoord00 = int2(floor(texCoord.x), floor(texCoord.y));\
+    int2 texelCoord10 = texelCoord00 + int2(1, 0);\
+    int2 texelCoord01 = texelCoord00 + int2(0, 1);\
+    int2 texelCoord11 = texelCoord00 + int2(1, 1);\
+    \
+    // Calculate interpolation weights\
+    float2 weights = texCoord - float2(texelCoord00.x, texelCoord00.y);\
+    \
+    // Read pixels\
+    float4 pixel00 = inputTexture.read(texelCoord00);\
+    float4 pixel10 = inputTexture.read(texelCoord10);\
+    float4 pixel01 = inputTexture.read(texelCoord01);\
+    float4 pixel11 = inputTexture.read(texelCoord11);\
+    \
+    // Interpolation\
+    float4 interpolated = mix(\
+        mix(pixel00, pixel10, weights.x),\
+        mix(pixel01, pixel11, weights.x),\
+        weights.y\
+    );\
+    \
+    outputTexture.write(interpolated, gid);\
+\}\
+\pard\pardeftab720\sa398\partightenfactor0
+
+\f2\b\fs48 \cf0 7. Performance and Optimization\
+\pard\pardeftab720\sa374\partightenfactor0
+
+\fs37\fsmilli18720 \cf0 Optimized Kernel with Shared Memory\
+\pard\pardeftab720\qc\partightenfactor0
+
+\f0\b0\fs28 \cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs32 \cf4 #include <metal_stdlib>\
+using namespace metal;\
+\
+// Optimized kernel with shared memory\
+kernel void optimizedKernel(\
+    device float* input [[ buffer(0) ]],\
+    device float* output [[ buffer(1) ]],\
+    threadgroup float* sharedMemory [[ threadgroup(0) ]],\
+    uint2 gid [[ thread_position_in_grid ]],\
+    uint2 threadPos [[ thread_position_in_threadgroup ]],\
+    uint2 threadGroupSize [[ threadgroup_size ]]) \{\
+    \
+    // Load data into shared memory\
+    int index = gid.x + gid.y * 1024;\
+    int threadIndex = threadPos.x + threadPos.y * threadGroupSize.x;\
+    \
+    if (threadIndex < 1024) \{\
+        sharedMemory[threadIndex] = input[index];\
+    \}\
+    \
+    // Synchronize threads\
+    threadgroup_barrier(mem_flags::mem_threadgroup);\
+    \
+    // Optimized processing\
+    if (threadIndex < 1024) \{\
+        // Example processing\
+        float result = sharedMemory[threadIndex] * sharedMemory[threadIndex];\
+        output[index] = result;\
+    \}\
+\}\
+\pard\pardeftab720\sa398\partightenfactor0
+
+\f2\b\fs48 \cf0 8. Error Handling and Debugging\
+\pard\pardeftab720\sa374\partightenfactor0
+
+\fs37\fsmilli18720 \cf0 Kernel with Error Handling\
+\pard\pardeftab720\qc\partightenfactor0
+
+\f0\b0\fs28 \cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs32 \cf4 #include <metal_stdlib>\
+using namespace metal;\
+\
+kernel void safeKernel(\
+    device float* input [[ buffer(0) ]],\
+    device float* output [[ buffer(1) ]],\
+    uint2 gid [[ thread_position_in_grid ]]) \{\
+    \
+    // Boundary checking\
+    if (gid.x >= 1024 || gid.y >= 1024) \{\
+        return;\
+    \}\
+    \
+    int index = gid.x + gid.y * 1024;\
+    \
+    // Data validation\
+    if (isfinite(input[index])) \{\
+        output[index] = input[index] * 2.0f;\
+    \} else \{\
+        output[index] = 0.0f;\
+    \}\
+\}\
+\pard\pardeftab720\sa398\partightenfactor0
+
+\f2\b\fs48 \cf0 9. Complete Usage Example\
+\pard\pardeftab720\sa374\partightenfactor0
+
+\fs37\fsmilli18720 \cf0 Main Processing Class\
+\pard\pardeftab720\qc\partightenfactor0
+
+\f0\b0\fs28 \cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs32 \cf5 import\cf4  Metal\
+\cf5 import\cf4  MetalKit\
+\
+\cf5 class\cf4  \cf6 MetalProcessor\cf4  \{\
+    \cf5 private\cf4  \cf5 let\cf4  device: \cf6 MTLDevice\cf4 \
+    \cf5 private\cf4  \cf5 let\cf4  commandQueue: \cf6 MTLCommandQueue\cf4 \
+    \cf5 private\cf4  \cf5 let\cf4  library: \cf6 MTLLibrary\cf4 \
+    \
+    \cf5 init\cf4 () \{\
+        \cf5 self\cf4 .device = \cf6 MTLCreateSystemDefaultDevice\cf4 ()!\
+        \cf5 self\cf4 .commandQueue = device.makeCommandQueue()!\
+        \cf5 self\cf4 .library = device.makeDefaultLibrary()!\
+    \}\
+    \
+    \cf5 func\cf4  \cf6 processVectors\cf4 (\cf5 _\cf4  vectors: [[\cf6 Float3\cf4 ]]) -> [[\cf6 Float3\cf4 ]] \{\
+        \cf5 guard\cf4  \cf5 let\cf4  library = library \cf5 else\cf4  \{ \cf5 return\cf4  [] \}\
+        \
+        \cf5 let\cf4  vectorCount = vectors.count\
+        \cf5 let\cf4  vectorArray = vectors.flatMap \{ [\cf7 $0\cf4 .x, \cf7 $0\cf4 .y, \cf7 $0\cf4 .z] \}\
+        \
+        \cf3 // Create buffers\cf4 \
+        \cf5 let\cf4  inputBuffer = device.makeBuffer(bytes: vectorArray, \
+                                          length: vectorArray.count * \cf6 MemoryLayout\cf4 <\cf6 Float\cf4 >.size, \
+                                          options: [])\
+        \cf5 let\cf4  outputBuffer = device.makeBuffer(length: vectorArray.count * \cf6 MemoryLayout\cf4 <\cf6 Float\cf4 >.size, \
+                                           options: [])\
+        \
+        \cf3 // Create command\cf4 \
+        \cf5 let\cf4  commandBuffer = commandQueue.makeCommandBuffer()!\
+        \cf5 let\cf4  computeEncoder = commandBuffer.makeComputeCommandEncoder()!\
+        \
+        \cf3 // Configure pipeline\cf4 \
+        \cf5 let\cf4  kernelFunction = library.makeFunction(name: \cf7 "vectorMagnitude"\cf4 )!\
+        \cf5 let\cf4  pipelineState = \cf5 try!\cf4  device.makeComputePipelineState(function: kernelFunction)\
+        \
+        computeEncoder.setComputePipelineState(pipelineState)\
+        computeEncoder.setBuffer(inputBuffer, offset: \cf6 0\cf4 , index: \cf6 0\cf4 )\
+        computeEncoder.setBuffer(outputBuffer, offset: \cf6 0\cf4 , index: \cf6 1\cf4 )\
+        \
+        \cf3 // Execute\cf4 \
+        \cf5 let\cf4  gridSize = \cf6 MTLSize\cf4 (width: vectorCount, height: \cf6 1\cf4 , depth: \cf6 1\cf4 )\
+        \cf5 let\cf4  threadGroupSize = \cf6 MTLSize\cf4 (width: \cf6 256\cf4 , height: \cf6 1\cf4 , depth: \cf6 1\cf4 )\
+        \
+        computeEncoder.dispatchThreads(gridSize, threadsPerThreadgroup: threadGroupSize)\
+        computeEncoder.endEncoding()\
+        \
+        commandBuffer.commit()\
+        commandBuffer.waitUntilCompleted()\
+        \
+        \cf3 // Retrieve results\cf4 \
+        \cf5 let\cf4  result = outputBuffer.contents().bindMemory(to: \cf6 Float\cf4 .\cf5 self\cf4 , capacity: vectorArray.count)\
+        \cf5 let\cf4  magnitudes = \cf6 Array\cf4 (\cf6 UnsafeBufferPointer\cf4 (start: result, count: vectorArray.count))\
+        \
+        \cf3 // Convert back to Float3 array\cf4 \
+        \cf5 var\cf4  resultArray: [[\cf6 Float3\cf4 ]] = []\
+        \cf5 for\cf4  i \cf5 in\cf4  \cf6 stride\cf4 (from: \cf6 0\cf4 , to: magnitudes.count, by: \cf6 3\cf4 ) \{\
+            resultArray.append(\cf6 Float3\cf4 (magnitudes[i], magnitudes[i+\cf6 1\cf4 ], magnitudes[i+\cf6 2\cf4 ]))\
+        \}\
+        \
+        \cf5 return\cf4  resultArray\
+    \}\
+\}\
+\pard\pardeftab720\sa398\partightenfactor0
+
+\f2\b\fs48 \cf0 10. Best Practices\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa160\partightenfactor0
+\ls4\ilvl0
+\fs32 \cf0 \kerning1\expnd0\expndtw0 {\listtext	1	}\expnd0\expndtw0\kerning0
+Data Structure Optimization:
+\f0\b0 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls4\ilvl1\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+Use aligned structures\
+\ls4\ilvl1\kerning1\expnd0\expndtw0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+Minimize memory accesses\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa160\partightenfactor0
+\ls4\ilvl0
+\f2\b \cf0 \kerning1\expnd0\expndtw0 {\listtext	2	}\expnd0\expndtw0\kerning0
+Performance Management:
+\f0\b0 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls4\ilvl1\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+Use optimal threadgroup sizes\
+\ls4\ilvl1\kerning1\expnd0\expndtw0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+Limit conditional branches\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa160\partightenfactor0
+\ls4\ilvl0
+\f2\b \cf0 \kerning1\expnd0\expndtw0 {\listtext	3	}\expnd0\expndtw0\kerning0
+Pipeline Reuse:
+\f0\b0 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls4\ilvl1\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+Create pipelines once\
+\ls4\ilvl1\kerning1\expnd0\expndtw0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+Reuse buffers efficiently\
+\pard\pardeftab720\sa398\partightenfactor0
+
+\f2\b\fs48 \cf0 Conclusion\
+\pard\pardeftab720\sa160\partightenfactor0
+
+\f0\b0\fs32 \cf0 This tutorial has covered the fundamentals of Metal V3 kernel programming for Apple Silicon graphics cards. Metal kernels enable highly efficient parallel processing of data, particularly useful for high-performance computing applications, image processing, and physics simulations.\
+The key to success with Metal is understanding the parallel architecture of Apple GPUs and structuring your computations to take advantage of threadgroup models and shared memory.\
+\pard\pardeftab720\qc\partightenfactor0
+
+\fs28 \cf0 \
+}
