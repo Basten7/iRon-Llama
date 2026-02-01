@@ -19,18 +19,30 @@ GPUs: Two Radeon 6800X Duo (MetalV3 compatible)
 Model Format: GGUF quantized models (Q4_K_M, Q4_K, Q6_K)
 
 📦 Installation
-git clone https://github.com/ggerganov/llama.cpp.git
-cd llama.cpp
-git fetch --tags
-git checkout b6123
+
+  git clone https://github.com/ggerganov/llama.cpp.git
+
+  cd llama.cpp
+
+  git fetch --tags
+
+  git checkout b6123
+
 ➡️ Then replace the 2 modified files from this repo into:
-llama.cpp/ggml/src/ggml-metal/
-… and you’re done ✅
-Prerequisites (Metal-only build)
+
+
+llama.cpp/ggml/src/ggml-metal/      … and you’re done ✅
+
+➡️ Prerequisites (Metal-only build)
+
 brew install cmake git libomp glslang molten-vk
-Prerequisites (Metal + Vulkan build)
+
+➡️ Prerequisites (Metal + Vulkan build)
+
 brew install cmake git libomp glslang molten-vk shaderc vulkan-loader vulkan-headers
-Build
+
+➡️ Build
+
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DGGML_METAL_MGPU=ON -DOpenMP_ROOT="$(brew --prefix)/opt/libomp" && cmake --build build -j
 
 
