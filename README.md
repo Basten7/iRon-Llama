@@ -35,7 +35,7 @@ llama.cpp/ggml/src/ggml-metal/      … and you’re done ✅
 
 ➡️ Prerequisites (Metal-only build)
 
-brew install cmake git libomp glslang molten-vk
+brew install cmake git libomp glslang
 
 ➡️ Prerequisites (Metal + Vulkan build)
 
