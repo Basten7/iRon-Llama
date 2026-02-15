@@ -17,6 +17,8 @@ Target Platform: macOS 26.2 (Intel-based)
 CPU: Intel Xeon W3235
 GPUs: Two Radeon 6800X Duo (MetalV3 compatible)
 Model Format: GGUF quantized models (Q4_K_M, Q4_K, Q6_K)
+
+
 Data types and precision support for AMD Gpus:
 https://rocm.docs.amd.com/en/latest/reference/precision-support.html?model=composable-kernel
 
